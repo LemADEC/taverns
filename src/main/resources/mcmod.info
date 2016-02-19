@@ -1,0 +1,17 @@
+[
+{
+  "modid": "taverns",
+  "name": "Village Taverns",
+  "description": "Adds taverns and other trade buildings to your Minecraft villages",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "assets/taverns/textures/gui/taverns.png",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["AngleWyrm", "zebragrrl", "Akjosch", "LemADEC"],
+  "credits": "Mojang, for giving us a rollicking good time",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
