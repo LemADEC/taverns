@@ -107,7 +107,7 @@ public class ComponentVillageBarn extends ComponentVillageBase {
 		BiomeSpecificBlock roofEast = getSpecificBlock(Blocks.oak_stairs, ForgeDirection.EAST, biome);
 		BiomeSpecificBlock roofWest = getSpecificBlock(Blocks.oak_stairs, ForgeDirection.WEST, biome);
 		
-		fill(world, bb, 0, 0, 0, width - 1, 5, 6, BiomeSpecificBlock.air, BiomeSpecificBlock.air, false);
+		fill(world, bb, 0, 0, 0, width - 1, HEIGHT - 1, 6, BiomeSpecificBlock.air, BiomeSpecificBlock.air, false);
 		for (int xx = 0; xx < width; xx++) {
 			for (int zz = 0; zz < 7; zz++) {
 				clearCurrentPositionBlocksUpwards(world, xx, 0, zz, bb);
